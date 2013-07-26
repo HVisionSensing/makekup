@@ -6,16 +6,19 @@
 CPP_SRCS += \
 ../src/ColorSelection.cpp \
 ../src/MakeupManager.cpp \
+../src/blend_mode.cpp \
 ../src/testmain.cpp 
 
 OBJS += \
 ./src/ColorSelection.o \
 ./src/MakeupManager.o \
+./src/blend_mode.o \
 ./src/testmain.o 
 
 CPP_DEPS += \
 ./src/ColorSelection.d \
 ./src/MakeupManager.d \
+./src/blend_mode.d \
 ./src/testmain.d 
 
 
